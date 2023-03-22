@@ -1,0 +1,189 @@
+div.chat-portal > div.mainPage {
+  overflow: hidden;
+}
+
+#userDP {
+  padding-top: 2px;
+}
+
+.DP {
+  padding-top: 6px;
+}
+
+.chatMessage {
+  position: relative;
+  font-size: 16px;
+  padding: 10px;
+  width: fit-content;
+  border-radius: 10px;
+  background-color: #ffffff;
+  margin-bottom: 30px;
+}
+
+.chatReceiver {
+  margin-left: auto;
+  background-color: #000000;
+  color: white;
+}
+
+.chatName {
+  position: absolute;
+  top: -15px;
+  font-weight: 800;
+  font-size: x-small;
+  color: white;
+}
+
+.chatTimestamp {
+  margin-left: 10px;
+  font-size: xx-small;
+}
+
+.subjectSection {
+  border: groove;
+  height: 100vh;
+  border-width: thin;
+  width: 100%;
+}
+
+#typingArea {
+  flex: 1;
+  height: 100%;
+  outline: none;
+  border: none;
+  border-bottom: groove;
+  border-bottom-width: thin;
+}
+
+#chatFooter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 41px;
+}
+
+#uploadContainer {
+  height: inherit;
+  border-right: groove;
+  border-bottom: groove;
+  border-width: thin;
+}
+
+#uploadContainer:hover {
+  background-color: #ededed;
+  cursor: pointer;
+}
+
+#uploadIcon {
+  padding: 6px 10px 10px 10px;
+  font-size: 20px;
+}
+
+#sendBtn {
+  height: inherit;
+  display: none;
+}
+
+#chatArea {
+  background-image: url(../img/DExBhK.jpg);
+  flex: 1;
+  background-position: Center;
+  padding: 30px;
+  overflow: scroll;
+  overflow-x: hidden;
+  border-bottom: groove;
+  border-width: thin;
+}
+
+#chatHeader {
+  padding: 15px;
+  border-bottom: groove;
+  border-width: thin;
+  height: 70px;
+}
+
+.chatSection {
+  padding: 0px;
+  height: 100vh;
+  width: 100%;
+}
+
+#userName {
+  padding-left: 5px;
+  padding-bottom: 2px;
+}
+
+#accountSection {
+  border-bottom: groove;
+  border-bottom-width: thin;
+}
+
+#chatPortal {
+  padding: 0px;
+  margin: 0px;
+}
+
+#col2 {
+  padding: 0px;
+}
+
+#subjectliterlas {
+  margin-bottom: 0px;
+  padding-top: 4px;
+  max-width: inherit;
+}
+
+#subjectName {
+  margin-right: auto;
+  padding-left: 6px;
+  max-width: inherit;
+}
+
+#sectionsContainer {
+  margin: 0px;
+}
+
+#subjectIcon {
+  font-size: small;
+}
+
+#profileName {
+  font-weight: bold;
+  outline: none;
+  resize: none;
+}
+
+#subject {
+  padding: 15px;
+  border-bottom: groove;
+  border-bottom-width: thin;
+  max-width: inherit;
+  width: inherit;
+}
+
+.teacherChoice {
+  padding: 15px;
+  border-bottom: groove;
+  border-bottom-width: thin;
+  width: inherit;
+}
+
+#subject:hover {
+  background-color: #ededed;
+  cursor: pointer;
+}
+
+.teacherSection {
+  padding: 0px;
+  border: groove;
+  border-width: thin;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height: 100vh;
+  width: 100%;
+}
+
+.teacherChoice:hover {
+  background-color: #ededed;
+  cursor: pointer;
+}
